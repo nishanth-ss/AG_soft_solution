@@ -40,8 +40,9 @@ const Contact = () => {
               <FaMapMarkerAlt className="w-4 h-4 text-blue-600" />
             </div>
             <h3 className="text-xl font-semibold mb-2">Address</h3>
-            <p className="text-gray-600">123 Business Street</p>
-            <p className="text-gray-600">Tech City, TC 12345</p>
+            <p className="text-gray-600">Flat #601 Gayathiri Arcade Plot 669</p>
+            <p className="text-gray-600">Gokul Plots VR colony kukatpally</p>
+            <p className="text-gray-600">Hydrebad 500085</p>
           </div>
         </div>
 
@@ -67,7 +68,7 @@ const Contact = () => {
         <div className="mt-16">
           <div className="h-96 w-full">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.215573813696!2d-73.9878446845938!3d40.74844047932881!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259a9b3117469%3A0xd134e199a405a163!2sEmpire%20State%20Building!5e0!3m2!1sen!2sus!4v1620000000000!5m2!1sen!2sus"
+              src="https://www.google.com/maps?q=Flat%20%23601%20Gayathiri%20Arcade%20Plot%20669%2C%20Gokul%20Plots%20VR%20Colony%2C%20Kukatpally%2C%20Hyderabad%20500085&output=embed"
               width="100%"
               height="100%"
               style={{ border: 0 }}
@@ -75,6 +76,12 @@ const Contact = () => {
               loading="lazy"
               title="Our Location"
             ></iframe>
+            {/* <iframe
+              src="https://www.google.com/maps?q=Flat%20%23601%20Gayathiri%20Arcade%20Plot%20669%2C%20Gokul%20Plots%20VR%20Colony%2C%20Kukatpally%2C%20Hyderabad%20500085&output=embed"
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+              title="Our Location – Hyderabad"
+            ></iframe> */}
           </div>
         </div>
       </LayoutContainer>
