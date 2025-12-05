@@ -34,7 +34,7 @@ const Navbar = () => {
           <img
             src={Logo}
             alt="AG Soft Solutions"
-            className="w-full h-22 object-contain cursor-pointer pt-2"
+            className="w-full h-14 md:h-22 object-contain cursor-pointer pt-2"
             title="Secure Software Solution"
           />
         </div>
