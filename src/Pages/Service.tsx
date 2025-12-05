@@ -36,7 +36,7 @@ const Service = () => {
   return (
     <section className="bg-white pt-10">
       <LayoutContainer>
-        <div className="text-center mb-16">
+        <div className="text-center mb-6 md:mb-16">
           <h2 className="text-4xl font-bold mb-4">Our Services</h2>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
             Comprehensive technology solutions to help your business grow and succeed in the digital world.
@@ -47,7 +47,7 @@ const Service = () => {
           {services.map((service, index) => (
             <div
               key={index}
-              className="bg-white flex flex-col items-center rounded-xl shadow-lg p-8 hover:shadow-xl transition-shadow duration-300 border border-gray-100"
+              className="bg-white flex flex-col items-center rounded-xl shadow-lg p-4 md:p-8 hover:shadow-xl transition-shadow duration-300 border border-gray-100"
             >
               <div className="mb-6 p-4 bg-blue-50 rounded-full inline-block">
                 {service.icon}

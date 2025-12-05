@@ -13,9 +13,9 @@ const Contact = () => {
 
       <LayoutContainer>
         {/* Contact Info Cards */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 -mt-12 relative z-10 px-4">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-8 -mt-12 relative z-10 px-4">
           {/* Phone Card */}
-          <div className="bg-white rounded-lg p-8 text-center">
+          <div className="bg-white rounded-lg p-4 md:p-8 text-center">
             <div className="bg-blue-100 w-12 h-12 rounded-full flex items-center justify-center mx-auto mb-4">
               <FaPhone className="w-4 h-4 text-blue-600" />
             </div>
@@ -24,7 +24,7 @@ const Contact = () => {
           </div>
 
           {/* Email Card */}
-          <div className="bg-white rounded-lg p-8 text-center">
+          <div className="bg-white rounded-lg p-4 md:p-8 text-center">
             <div className="bg-blue-100 w-12 h-12 rounded-full flex items-center justify-center mx-auto mb-4">
               <FaEnvelope className="w-4 h-4 text-blue-600" />
             </div>
@@ -35,7 +35,7 @@ const Contact = () => {
           </div>
 
           {/* Address Card */}
-          <div className="bg-white rounded-lg p-8 text-center">
+          <div className="bg-white rounded-lg p-4 md:p-8 text-center">
             <div className="bg-blue-100 w-12 h-12 rounded-full flex items-center justify-center mx-auto mb-4">
               <FaMapMarkerAlt className="w-4 h-4 text-blue-600" />
             </div>
@@ -47,7 +47,7 @@ const Contact = () => {
         </div>
 
         {/* Social Links */}
-        <div className="flex justify-center mt-16">
+        <div className="flex justify-center mt-8 md:mt-16">
           <div className="flex space-x-4">
             <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer" className="border p-4 rounded-full hover:bg-blue-600 hover:text-white transition-colors">
               <FaFacebookF className="w-4 h-4" />

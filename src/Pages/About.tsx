@@ -3,7 +3,7 @@ import Herosection1 from "../assets/herosection2.jpg";
 
 const About = () => {
   return (
-    <section className="bg-gray-100 pt-20 pb-10">
+    <section className="bg-gray-100 pt-5 md:pt-20 pb-10">
       <LayoutContainer>
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-4xl font-bold mb-8">About Us</h2>

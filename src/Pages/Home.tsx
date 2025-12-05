@@ -122,7 +122,7 @@ const Home = () => {
             {/* Navigation Arrows */}
             <button
                 onClick={prevSlide}
-                className="absolute left-4 top-1/2 cursor-pointer -translate-y-1/2 bg-gray-500 text-xl min-w-12 min-h-12 text-white rounded-full z-20 hover:bg-opacity-70 transition-all flex items-center justify-center"
+                className="absolute left-4 top-1/2 cursor-pointer -translate-y-1/2 bg-black/10 text-xl min-w-12 min-h-12 text-white rounded-full z-20 hover:bg-black/30 transition-all flex items-center justify-center"
                 aria-label="Previous slide"
             >
                 <FaChevronLeft className="w-5 h-5" />
@@ -130,7 +130,7 @@ const Home = () => {
 
             <button
                 onClick={nextSlide}
-                className="absolute right-4 top-1/2 cursor-pointer -translate-y-1/2 bg-gray-500 text-white min-w-12 min-h-12 rounded-full z-20 hover:bg-opacity-70 transition-all flex items-center justify-center"
+                className="absolute right-4 top-1/2 cursor-pointer -translate-y-1/2 bg-black/10 text-white min-w-12 min-h-12 rounded-full z-20 hover:bg-black/30 transition-all flex items-center justify-center"
                 aria-label="Next slide"
             >
                 <FaChevronRight className="w-5 h-5" />
