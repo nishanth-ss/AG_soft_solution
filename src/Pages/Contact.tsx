@@ -20,7 +20,7 @@ const Contact = () => {
               <FaPhone className="w-4 h-4 text-blue-600" />
             </div>
             <h3 className="text-xl font-semibold mb-2">Phone</h3>
-            <p className="text-gray-600">+91-88844 46599</p>
+            <p className="text-gray-600">+91-73823 02429</p>
           </div>
 
           {/* Email Card */}
@@ -30,7 +30,7 @@ const Contact = () => {
             </div>
             <h3 className="text-xl font-semibold mb-2">Email</h3>
             <a href="mailto:info@agsoftsolutions.com" className="text-blue-600 hover:underline">
-              info@agsoftsolutions.com
+              agsoftsolutionsin@gmail.com
             </a>
           </div>
 
@@ -40,7 +40,7 @@ const Contact = () => {
               <FaMapMarkerAlt className="w-4 h-4 text-blue-600" />
             </div>
             <h3 className="text-xl font-semibold mb-2">Address</h3>
-            <p className="text-gray-600">Flat #601 Gayathiri Arcade Plot 669</p>
+            <p className="text-gray-600">Flat #601 Gayatri Arcade Plot 669</p>
             <p className="text-gray-600">Gokul Plots VR colony kukatpally</p>
             <p className="text-gray-600">Hydrebad 500085</p>
           </div>
