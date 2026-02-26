@@ -1,33 +1,16 @@
-import { Element } from 'react-scroll';
-import Navbar from './components/Navbar';
-import Home from './Pages/Home';
-import About from './Pages/About';
-import Service from './Pages/Service';
-import Contact from './Pages/Contact';
-import Footer from './components/Footer';
+import { Routes, Route, Navigate } from 'react-router-dom';
+import LandingPage from './Pages/LandingPage';
+import PrivacyPolicy from './Pages/PrivacyPolicy';
+import DataDeletion from './Pages/DataDeletion';
 
 function App() {
   return (
-    <div className="min-h-screen">
-      <Navbar />
-      
-      <Element name="home" className="section">
-        <Home />
-      </Element>
-      
-      <Element name="about" className="section">
-        <About />
-      </Element>
-      
-      <Element name="services" className="section">
-        <Service />
-      </Element>
-      
-      <Element name="contact" className="section">
-        <Contact />
-      </Element>
-      <Footer/>
-    </div>
+    <Routes>
+      <Route path="/" element={<LandingPage />} />
+      <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+      <Route path="/data-deletion" element={<DataDeletion />} />
+      <Route path="*" element={<Navigate to="/" replace />} />
+    </Routes>
   );
 }
 
