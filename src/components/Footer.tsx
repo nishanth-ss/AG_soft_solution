@@ -15,6 +15,9 @@ const Footer = () => {
           <Link to="/data-deletion" className="text-gray-700 hover:text-blue-600 transition-colors">
             Data Deletion
           </Link>
+          <Link to="/terms-and-conditions" className="text-gray-700 hover:text-blue-600 transition-colors">
+            Terms & Conditions
+          </Link>
         </div>
       </div>
     </footer>
